@@ -3,18 +3,20 @@ p{
 	width: 960px;
     margin-right: auto;
     margin-left: auto;
-    border: gray 1px solid;
+    border: gray 3px solid;
+    
 }
 header {
     height: 50px;
     background-color: #283747;
-    margin-bottom: 5px /*es el espaciado :D*/
+    margin-bottom: 3px /*es el espaciado :D*/
 }
 ul{
-    margin:0px 250px;
+    margin:5px 3px;
     padding:5px 2px;
     list-style-type: none;
     font: bold;
+    text-align: center;
 }
 ul.horizontal li {
     display: inline;
@@ -22,15 +24,15 @@ ul.horizontal li {
 ul.horizontal li a {
     display: inline-block;
     width: 100px;
-    height: 30px;
-    background-color: #F3F781;
-    margin-bottom: 2px;
-    color: #FF4000;
+    height: 2px;
+    background-color: ;/*#F3F781*/
+    margin-bottom: 500px;
+    color: #F5DA81;/*#FF4000*/
     text-decoration: none;
     text-align: center;
-    line-height: 20px;
+    line-height: 5px;
     font-weight: bold;
-    border-color: #F5DA81;
+    border-color: ;/*#F5DA81*/
     border: 0px solid #F5DA81;
     
 }
@@ -38,13 +40,13 @@ ul.horizontal li a {
 #logo{
 	width: 316px;/*ancho*/
     height: 50px;/*altura*/
-    background-color: #008170;
+    background-color: ;/*#008170*/
     float: left;
 }
 #menu{
-	width: 316px;/*ancho*/
-    height: 50px;/*altura*/
-    background-color: #71DFE7;
+	width: 960px;/*ancho*/
+    height: 5px;/*altura*/
+    background-color: #71DFE7;/**/
     float: left;
 }
 #foto {
@@ -99,4 +101,10 @@ ul.horizontal li a {
     float: right;
     margin-bottom:5px;
 
+}
+#contactos{
+    width:960px; /*ancho*/
+    height:90px; /*alto*/
+    text-align: left;
+    line-height: 5px;
 }
