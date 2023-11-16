@@ -3,14 +3,15 @@ p{
 	width: 960px;
     margin-right: auto;
     margin-left: auto;
-    border: gray 3px solid;
+    border: gray 0px solid;
     
 }
 header {
     height: 50px;
     background-color: #283747;
-    margin-bottom: 3px /*es el espaciado :D*/
+    margin-bottom: 0px /*es el espaciado :D*/
 }
+/**/
 ul{
     margin:5px 3px;
     padding:5px 2px;
@@ -25,7 +26,7 @@ ul.horizontal li a {
     display: inline-block;
     width: 100px;
     height: 2px;
-    /*#F3F781*/
+    flex-direction: row;
     margin-bottom: 500px;
     color: #F5DA81;/*#FF4000*/
     text-decoration: none;
@@ -52,7 +53,7 @@ ul.horizontal li a {
 #foto {
     width: 477px;
     height: 450px;
-    background-color: #56fc03;
+    
     float: left;
     margin-bottom: 5px;
 }
@@ -62,6 +63,7 @@ ul.horizontal li a {
     background-color: #03fcc6;
     float: right;
     margin-bottom: 5px;
+    text-align: center;
 }
 #txt_abajo {
     width: 477px;
@@ -69,6 +71,7 @@ ul.horizontal li a {
     background-color: #03fcc6;
     float: right;
     margin-bottom: 5px;
+    text-align: center;
 }
 #iconocu {
     width: 477px;
