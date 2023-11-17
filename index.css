@@ -8,34 +8,44 @@ p{
 }
 header {
     height: 50px;
-    background-color: #283747;
-    margin-bottom: 0px /*es el espaciado :D*/
+    background-color: ;/**/
+    margin-bottom: 0px /*es el espaciado de abajo :D*/
+
 }
+body {background-color: #283747;}
 /**/
 ul{
     margin:5px 3px;
     padding:5px 2px;
     list-style-type: none;
-    font: bold;
+    font-family: cursive;
     text-align: center;
 }
-ul.horizontal li {
-    display: inline;
-}
-ul.horizontal li a {
-    display: inline-block;
-    width: 100px;
+
+ul.menu li{display: inline-block;}
+ul.menu li a{display: inline-block;
+    width: 80px;
+    font-family: sans-serif;
+    font-weight: ;
     height: 2px;
-    flex-direction: row;
-    margin-bottom: 500px;
-    color: #F5DA81;/*#FF4000*/
+   background-color: transparent;
+   border-radius: 10px;
+   padding: 15px  30px;
+   
+
+    margin-bottom: 0px;
+    color: #FF2D00;/**/
     text-decoration: none;
-    text-align: center;
-    line-height: 5px;
-    font-weight: bold;
-    border-color: ;/*#F5DA81*/
-    border: 0px solid #F5DA81;
     
+    line-height: 0px;
+    font-weight: bold;
+    border-color: #F5DA81;/**/
+    border: 5px solid #F5DA81;
+   }
+    ul.menu li a:hover{
+    background-color: transparent;
+    border: 5px solid #FF957E;
+    color: #F5DA81
 }
 
 #logo{
@@ -47,9 +57,10 @@ ul.horizontal li a {
 #menu{
 	width: 960px;/*ancho*/
     height: 5px;/*altura*/
-    background-color: #71DFE7;/**/
+    background-color: ;/*#71DFE7*/
     float: left;
 }
+
 #foto {
     width: 477px;
     height: 450px;
