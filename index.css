@@ -12,8 +12,8 @@ header {
     margin-bottom: 0px /*es el espaciado de abajo :D*/
 
 }
-body {background-color: #283747;}
-/**/
+body {background-color: ;}
+/*#ff88ff*/
 ul{
     margin:5px 3px;
     padding:5px 2px;
@@ -55,9 +55,9 @@ ul.menu li a{display: inline-block;
     float: left;
 }
 #menu{
-	width: 960px;/*ancho*/
+	width: 960px ;/*ancho*/
     height: 5px;/*altura*/
-    background-color: ;/*#71DFE7*/
+    background-color: #71DFE7; /**/
     float: left;
 }
 
@@ -84,37 +84,46 @@ ul.menu li a{display: inline-block;
     margin-bottom: 5px;
     text-align: center;
 }
-#iconocu {
-    width: 477px;
-    height: 100px;
-    background-color: #6b03fc;
-    float: right;
-    margin-bottom: 10px;
 
-}
-#box1 {
-    width: 477px;
-    height: 328px;
-    background-color: #6b03fc ;
+#historial {
     float: left;
-    margin-bottom: 10px;
-
+    width:400px 200px;
+    height:305px;
+    background-color: #ff957e;
+    margin-left: 183px;
+    margin-bottom:8px; 
+    align-items: center;
 }
-#iconoDescG {
-    width: 477px;
-    height: 100px;
-    background-color: #009DAE;
+
+.caja1 {/*cv*/
+    background-color: #88ffff;
+    width: 477px;/*ancho*/
+    height: 50px;/*altura*/
     float: left;
-    margin-bottom: 5px;
-
+    margin:  1px;
+    text-align: center;
 }
-#box2 {
-    width: 477px;
-    height: 328px;
-    background-color: #009DAE ;
+.caja2 { /*descrip*/
+    background-color: #ffff88;
+    width: 477px;/*ancho*/
+    height: 50px;/*altura*/
+    float: left;
+    margin:  1px;
+}
+.caja3 {/*descrip*/
+    background-color: #ffff88;
+    width: 477px;/*ancho*/
+    height: 250px;/*altura*/
     float: right;
-    margin-bottom:5px;
-
+    margin:  1px;
+    text-align-last: center;
+}
+.caja4 { /*cv*/
+    background-color: #88ffff;
+    width: 477px;/*ancho*/
+    height: 250px;/*altura*/
+    float: left;
+    margin:  1px;
 }
 #contactos{
     width:960px; /*ancho*/
